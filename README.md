@@ -1,6 +1,6 @@
 # App_meteo
 
-App météo en js
+**App météo en js**
 
 *Tech*
 - API openweathermap
