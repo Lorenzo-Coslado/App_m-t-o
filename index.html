@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Weather app</title>
+  </head>
+  <body>
+    <h1>Weather app</h1>
+    <div class="weather_container">
+      <div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot" id="location_text"></i>
+        </div>
+        <div class="search-box">
+          <input
+            type="text"
+            class="search-bar"
+            id="search"
+            placeholder="Search..."
+          />
+          <button class="fa-solid fa-magnifying-glass" id="submit"></button>
+        </div>
+      </div>
+      <div id="Weather">
+        <i class="fa-solid fa-triangle-exclamation" id="error"></i>
+        <p>Votre localisation est introuvable :/</p>
+      </div>
+      <div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
