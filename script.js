@@ -1,4 +1,4 @@
-const apiKey = "af4c740052f1d994a29eda00045e4f64";
+const apiKey = "api_key";
 const button = document.getElementById("submit");
 
 const cloud = '<i class="fa-solid fa-cloud" id="cloud"></i>';
